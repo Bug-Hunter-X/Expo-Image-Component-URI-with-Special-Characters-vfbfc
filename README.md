@@ -1,0 +1,1 @@
+This repository demonstrates a bug in Expo's Image component where images with special characters in their URIs fail to load. The bug is inconsistent and doesn't always throw errors. The solution involves URL encoding the URI before passing it to the Image component.
